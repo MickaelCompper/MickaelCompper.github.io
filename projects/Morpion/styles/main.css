@@ -219,3 +219,9 @@ header > h1 {
   background-color: #7158e2;
   transform: translateY(2px);
 }
+
+
+#bold{
+  font-weight: bold;
+  color: red;
+}

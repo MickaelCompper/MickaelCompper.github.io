@@ -1,17 +1,18 @@
-/**
-* Template Name: iPortfolio
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+}
+
+.bold{
+  font-weight: bold;
+  color: rgb(11, 163, 233);
+}
+.bold2{
+  font-weight: bold;
+  color: tomato ;
 }
 
 a {
