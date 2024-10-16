@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Freshly Inn, your favourite restaurant !">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<title>Freshly Restaurant - Home</title>
+		<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Athiti:wght@500&family=Merienda&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/slick.css">
+		<link rel="stylesheet" href="css/slick-theme.css">
+
+		<script src="https://kit.fontawesome.com/48a28c8334.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+				<a href="index.html" class="logo">
+					<img src="pictures/logo.png" alt="Logo for Freshly Inn">
+					<strong>Freshly Inn</strong>
+				</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="menus.html">Menus</a></li>
+						<li><a href="contact.html" class="active">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main class="container">
+			<h1>Contact us</h1>
+			<p class="select">If your want to make a reservation, please complete this form.</p>
+			<p class="mandatory">Fields with <abbr title="(required)" aria-hidden="true">*</abbr> are required.</p>
+
+			<span class="error"></span>
+
+			<form>
+				<div>
+					<fieldset>
+						<legend>Reservation</legend>
+						<label for="date"><abbr title="(required)" aria-hidden="true">*</abbr> Date</label>
+						<input type="date" id="date" >
+						<label for="time"><abbr title="(required)" aria-hidden="true">*</abbr> Time</label>
+						<input type="time" id="time" >
+						<label for="guests"><abbr title="(required)" aria-hidden="true">*</abbr> Number of guests</label>
+						<input type="number" id="age" >
+					</fieldset>
+					<fieldset>
+						<legend>Details</legend>
+						<label for="name"><abbr title="(required)" aria-hidden="true">*</abbr> Name</label>
+						<input type="text" id="name" >
+						<label for="email">Email</label>
+						<input type="email" id="email">
+						<label for="tel"><abbr title="(required)" aria-hidden="true">*</abbr> Telephone</label>
+						<input type="tel" id="tel" >
+					</fieldset>
+				</div>
+				<label for="request" class="request">Further request</label>
+				<textarea id="request"></textarea>
+				<p><input type="submit" value="Reserve"></p>
+			</form>
+
+			<div class="map">
+				<h2>Our location</h2>
+				<iframe src="https://www.openstreetmap.org/export/embed.html?bbox=37.63899922370911%2C55.73294148178973%2C37.64253973960877%2C55.73418286327792&amp;layer=mapnik"></iframe>
+				</div>
+		</main>
+
+		<footer>
+			<div class="container">
+				<div class="flex">
+					<aside>
+						<h4>Opening hours</h4>
+						<ul>
+							<li>Monday: Closed</li>
+							<li>Tue-Wed : 9am - 10pm</li>
+							<li>Thu-Fri : 10am - 10pm</li>
+							<li>Sat-Sun : 5pm - 10pm</li>
+						</ul>
+					</aside>
+					<aside>
+						<h4>Contact</h4>
+						<address>
+						<p>56 Ozerkovskaya Naberezhnaya<br>
+							Moscow,<br>
+							115054</p>
+						<p>+01 2000 800 9999</p>
+					</address>
+					</aside>
+					<aside>
+						<h4>Social networks</h4>
+						<div class="reseaux">
+							<a href="#" class="fab fa-facebook-f"></a>
+							<a href="#" class="fab fa-instagram"></a>
+							<a href="#" class="fab fa-pinterest-p"></a>
+						</div>
+					</aside>
+				</div>
+
+				<div class='portfolio'>
+					<p>Réalisé par <a href='mailto:Mickael.Compper@proton.me'>Mickaël COMPPER</a></p>
+					<nav>
+						<a href='https://www.linkedin.com/in/mickael-compper/' target='_blank' rel='external noopener'><i class='fa-brands fa-linkedin-in'></i></a>
+						<a href='https://github.com/MickaelCompper' target='_blank' rel='external noopener'><i class='fa-brands fa-github'></i></a>
+					</nav>
+					<p> Images et vidéos récupérées sur <a href='https://www.pexels.com/fr-fr/' target='_blank' rel='external noopener'>Pexels</a></p>
+				</div>
+			</div>
+		</footer>
+			<script type="module" src="js/app.js"></script>
+	</body>
+
+</html>
